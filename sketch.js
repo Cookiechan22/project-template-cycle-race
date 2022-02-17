@@ -139,7 +139,10 @@ function draw() {
     redCG.setLifetimeEach(-1);
 
     //escreva uma condição para chamar a função reset()
-}
+ 
+if(player1.isTouching(player2)|| (player1.isTouchin(player3){
+reset()
+
 }
 
 function pinkCyclists(){
@@ -170,6 +173,12 @@ function redCyclists(){
 }
 
 //criar função reset aqui
+
+function reset(){
+
+ player.velocityX=0
+score=0
+}
 
 
 
